@@ -11,6 +11,7 @@ function FormInput({ name, label }) {
       <Controller
         as={TextField}
         name={name}
+        defaultValue=""
         control={control}
         label={label}
         fullWidth
